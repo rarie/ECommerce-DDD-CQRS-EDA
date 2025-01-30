@@ -1,0 +1,38 @@
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore auto-generated files
+*.generated.cs
+
+# Ignore test results
+TestResults/
+
+# Ignore publish directory
+publish/
+
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
+.nuget/
+
+# Ignore environment-specific files
+.env
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore Rider project files
+.idea/
+
+# Ignore Mac-specific files
+.DS_Store
+
+# Ignore Windows-specific files
+Thumbs.db
