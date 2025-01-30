@@ -11,15 +11,17 @@ A study project for:
 
 ## Table of Contents
 
+- [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
+
+## Requirements
+
+1. .NET Core
+2. Entity Framework Core
+3. Docker (for RabbitMQ)
 
 ## Installation
-
-Step-by-step instructions on how to install and set up your project. For example:
 
 1. Clone the repository:
    ```bash
@@ -33,12 +35,13 @@ Step-by-step instructions on how to install and set up your project. For example
    ```bash
    dotnet restore
    ```
+4. Run database migration:
+   ```bash
+   dotnet ef database update
+   ```
 
 ## Usage
 
-Instructions on how to use the project once it's been installed. For example:
-
 ```bash
-dotnet ef database update
 dotnet run
 ```
