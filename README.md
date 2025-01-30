@@ -1,14 +1,18 @@
-# Project Name
+# ECommerce-DDD-CQRS-EDA
 
 ## Description
 
-A brief description of what your project does and its purpose.
+A study project for:
+
+- Domain-Driven Design
+- Event-Driven Architecture
+- Command Query Responsibility Segregation
+- .NET Core
 
 ## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Docker and RabbitMQ Setup](#docker-and-rabbitmq-setup)
 - [Features](#features)
 - [Contributing](#contributing)
 - [License](#license)
