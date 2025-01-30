@@ -23,7 +23,7 @@ Step-by-step instructions on how to install and set up your project. For example
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/repository.git
+   git clone https://github.com/rarie/ECommerce-DDD-CQRS-EDA.git
    ```
 2. Navigate to the project directory:
    ```bash
